@@ -14,4 +14,9 @@ int main(){
     short year = 1980;
 
     std::cout<<"My birthday date: "<< day <<" "<< month << " " << year << std::endl;
+
+    const float VERSION = 2.3f;
+    const std::string OS = "WINDOWS";
+
+    std::cout<<OS<<" "<<VERSION<<std::endl;
 }
